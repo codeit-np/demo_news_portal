@@ -1,5 +1,5 @@
 <div>
-    <section class="bg-gray-200 py-10">
+    <section class="bg-red-400 py-10">
         <div class="container m-auto grid grid-cols-2">
             <div>
                 <a href="{{ route('home') }}">
