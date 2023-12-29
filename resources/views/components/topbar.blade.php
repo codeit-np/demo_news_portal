@@ -1,13 +1,11 @@
 <div>
-    <section class="bg-red-400 py-10">
+    <section class="bg-black py-5">
         <div class="container m-auto grid grid-cols-2">
             <div>
-                <a href="{{ route('home') }}">
-                    <img src="{{ Storage::url($company->logo) }}" width="200" alt="">
-                </a>
+                <h1 class="text-yellow-200 text-4xl">Dharan Khabar</h1>
             </div>
 
-            <div class="text-right">
+            <div class="text-right text-white">
                 <span>{{ $company->address }}</span>
                 <span>For Ad:{{ $company->for_ad }}</span>
 
